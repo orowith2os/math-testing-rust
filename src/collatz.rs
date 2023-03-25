@@ -5,7 +5,7 @@ pub fn collatz(mut num: u32) {
 
     loop {
         println!("{num}");
-        // When the integer hits the 16 -> 8 -> 4 -> 2 -> 1 range (and it will) we can exit.
+        // When the integer hits the 4 -> 2 -> 1 range (and it will) we can exit.
         // This also helps to make sure we don't do any unnecessary calculations.
         if num == 1 {
             return ();
