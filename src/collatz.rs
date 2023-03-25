@@ -1,6 +1,6 @@
 // The Collatz conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture
-pub fn collatz(mut num: u32) {
-    // The Collatz conjecture only works properly on positive integers; u32 only allows positive integers.
+pub fn collatz(mut num: usize) {
+    // The Collatz conjecture only works properly on positive integers; usize only allows positive integers.
     // Therefore, we don't need to handle if a negative number (or float) is plugged in.
 
     loop {
